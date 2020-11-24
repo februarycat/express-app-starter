@@ -1,0 +1,26 @@
+{
+  "name": "express-app-starter",
+  "version": "1.0.0",
+  "description": "Express app starter template for REST API projects",
+  "main": "src/index.js",
+  "repository": "https://github.com/februarycat/express-app-starter.git",
+  "author": "Radu Dascalu <radu.dascalu97@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.0"
+  }
+}
